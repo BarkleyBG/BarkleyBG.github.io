@@ -8,12 +8,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   /* color: #606c71; } */
-  color: #65526e; }
+  color: #65526e; } /*grey plum color for body text */
 
 a { 
 	/* this is the anchor. for links. */
   /* color: #1e6bb8; */
-  color: #1d7fe0;
+ /*  color: #1d7fe0; /*blue blue */ 
+ color: #3f961a;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -57,27 +58,31 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fdffed; /*font color for header*/
+  /* color: #fdffed; */ /*font color for header*/
+  /* color: #65526e; */ /*grey plum color for header */
+   color: #580180;  /*dark plum color for header */
   text-align: center;
-  background-color: #159957;
+  /* light purple background  in the main section*/
+  background-color: #f7f8fa; 
+  /* background-color: #159957; */
   /* background-color: #e8e84f; *attempt for yellow; */
 	  /* background-image: linear-gradient(120deg, #155799, #159957); */ 
 /* 	  background-image: linear-gradient(120deg, #970fa6, #1f75cc); *second attempt */	
 	  /* background-image: linear-gradient(120deg, #7b0987,  #7b0987 75%, #296e0c);  */
-	  background-image: linear-gradient(120deg, #3f961a , #7b0987 90%); 
+	  background-image: linear-gradient(135deg, #3f961a ,#f7f8fa,#f7f8fa 10%,#f7f8fa 95%,#580180); 
 	  
 	  
 	  }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 42em) {
   .page-header {
     /* padding: 5rem 6rem; } } */
     padding: 1rem 2rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
+/* @media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-header {    padding: 1rem 2rem; } } */
     /* padding: 3rem 4rem; } } */
-    padding: 1rem 2rem; } }
+
 
 @media screen and (max-width: 42em) {
   .page-header {
@@ -88,14 +93,14 @@ a {
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 42em) {
 /* this is for largest screens */
   .project-name {
     font-size: 2.75rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+/* @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
-    font-size: 2.75rem; } }
+    font-size: 2.75rem; } } */
 
 @media screen and (max-width: 42em) {
   .project-name {
@@ -106,13 +111,13 @@ a {
   font-weight: normal;
   opacity: 0.7; }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 42em) {
   .project-tagline {
     font-size: 1.25rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+/* @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
-    font-size: 1.15rem; } }
+    font-size: 1.15rem; } } */
 
 @media screen and (max-width: 42em) {
   .project-tagline {
@@ -121,8 +126,9 @@ a {
 .main-content {
   /* color: #fff; */
   /* text-align: center; */
-  /* light purple background  in the main section*/
-  background-color: #f5f2f5; 
+ 
+  /* background-color: #f5f2f5; */  /* light purple background  in the main section*/
+  background-color: #f7f8fa; /* an even lighter purple*/
 }
 .main-content :first-child {
   margin-top: 0; }
@@ -135,17 +141,27 @@ a {
   font-size: 2.5rem;
   /* font-weight: normal; */
   /* color: #159957; } */
-  /* color: #3f961a; } /*dark green*/ 
-  color: #7b0987; } 
+  /* color: #3f961a; } /*dark green, like the header*/ 
+  color: #580180; }  /* darker purple than the header*/
   
-.main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+.main-content h2{
  /* this is the 'main-content' part of index.html*/)
   margin-top: 1.75 rem;
   margin-bottom: 1.15rem;
   font-size: 1.1 rem;
   /* font-weight: normal; */
-  /* color: #159957; } */
-  color: #7b0987; }
+  /* color: #159957; } /*dark green*/ 
+  color: #580180; } /* dark purple, like the header*/
+  
+ .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+ /* this is the 'main-content' part of index.html*/)
+  margin-top: 1.5 rem;
+  margin-bottom: 1.1rem;
+  font-size: 1.05 rem;
+  /* font-weight: normal; */
+/*   color: #159957; } */  /*dark green like the header*/
+  color: #580180; }  /* dark purple, like the header*/
+
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -237,17 +253,18 @@ a {
   background-color: #eff0f1;
   border: 0; }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 42em) {
   .main-content {
     /* max-width: 64rem; */
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+/* @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
     padding: 2rem 4rem;
-    font-size: 1.1rem; } }
+    font-size: 1.1rem; } } */
+	
 
 @media screen and (max-width: 42em) {
   .main-content {
@@ -261,19 +278,20 @@ a {
 
 .site-footer-owner {
   display: block;
-  font-weight: bold; }
+  font-weight: bold; 
+  font-size: 12px;}
 
 .site-footer-credits {
   color: #819198;
 font-size: 10px;  }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 42em) {
   .site-footer {
     font-size: 1rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+/* @media screen and (min-width: 42em) and (max-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: 1rem; } } */
 
 @media screen and (max-width: 42em) {
   .site-footer {
