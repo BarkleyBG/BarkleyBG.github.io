@@ -1,8 +1,8 @@
 README
 ================
 
-[BarkleyBG.github.io](BarkleyBG.github.io)
-==========================================
+[BarkleyBG.github.io](https://BarkleyBG.github.io)
+==================================================
 
 My personal webpage, hosted on GitHub
 
