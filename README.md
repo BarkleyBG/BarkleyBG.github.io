@@ -1,8 +1,11 @@
-# BarkleyBG.github.io
+README
+================
 
+[BarkleyBG.github.io](BarkleyBG.github.io)
+==========================================
 
-My personal webpage!
+My personal webpage, hosted on GitHub
 
-----------
-(under construction - thanks for your patience)
-----------
+|                                                                   |
+|-------------------------------------------------------------------|
+| (under construction - thanks for your patience - come back soon!) |
